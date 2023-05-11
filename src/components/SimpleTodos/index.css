@@ -1,0 +1,33 @@
+.body-background {
+  background-color: #ffc2a0;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  height: 100vh;
+}
+
+.todos-container {
+  background-color: #ffffff;
+  background-size: cover;
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.todos-heading {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.todos-list-container {
+  display: flex;
+  flex-direction: column;
+}
